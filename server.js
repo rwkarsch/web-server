@@ -3,7 +3,7 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 var middleware = require('./middleware.js');
-
+// This is a comment to test out git...
 // var middleware = {
 // 	requireAuthentication: function (req, res, next){
 // 		console.log('private log hit!');
